@@ -8,4 +8,5 @@ import com.Alejandro.Users.Entities.Rol;
 @Repository
 public interface RolRepository extends JpaRepository<Rol, Integer>{
 
+
 }
