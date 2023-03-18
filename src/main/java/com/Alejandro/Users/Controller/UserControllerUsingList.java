@@ -20,8 +20,8 @@ import com.Alejandro.Users.model.User;
 
 @RestController
 //definición de mi recurso
-@RequestMapping("/users")
-public class UserController {
+@RequestMapping("/v1/users")
+public class UserControllerUsingList {
 	
 	//inyeción del servicio que tenemos creado en UserServices
 	@Autowired

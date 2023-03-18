@@ -12,7 +12,7 @@ import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name= "user")
+@Table(name= "User")
 public class User {
 
 	@Id
@@ -61,8 +61,5 @@ public class User {
 	public void setProfile(Profiel profile) {
 		this.profile = profile;
 	}
-	
-	
-	
 	
 }
