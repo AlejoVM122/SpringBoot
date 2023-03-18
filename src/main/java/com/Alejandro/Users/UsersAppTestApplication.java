@@ -26,11 +26,11 @@ public class UsersAppTestApplication implements  ApplicationRunner{
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		
-		for(int i=0; i< 100;i++) {
+		for(int i=0; i< 200000;i++) {
 			
 			User user = new  User();
 			
-			user.setUsername(faker.artist().name());
+			user.setUsername(faker.name().firstName());
 			user.setPasword(faker.animal().name());
 			user.setProfile(null);
 			
